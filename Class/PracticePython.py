@@ -115,7 +115,11 @@ while a !='quit':
         if(len(a)>len(b)):
             print(a, 'has input a great value string')
         else:
+
 '''
+'''
+Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right. 
+(Hint: remember to use the user input lessons from the 
 
 import random as r
 
@@ -142,6 +146,108 @@ while (a!=b ):
     else:
         print("You got it!")
         print("And it only took you",count,"tries!")
+
+
+
+
+import random
+
+def ran():
+    a = random.randint(0,10)
+    for i in range(0,11):
+        b = int(input("Enter Value"))
+        i+=1
+        if (b>a):
+            print("Enter the lowar value")
+        elif(b<a):
+            print("Enter the higher Value")
+        else:
+            print(b, "Gotcha, you have entered the correct value")
+            print("It took ",i, "to match exact value")
+
+ran()
+
+
+import random as r
+
+a = a.random(
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+c=[]
+
+for i in a:
+    if i in b:
+        c.append(i)
+
+print(set(c))
+
+
+
+import random as r
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+a = r.sample(a,20)
+print(a)
+
+'''
+#check for prime numbers
+
+def checkprime():
+    a = int(input("Enter Number to be checked : "))
+
+    if (a>1):
+        for i in range(2,a):
+
+            if(a%i==0):
+
+                print("This is a Not a prime number")
+                break
+
+
+
+                            
+        else:
+            print("This is  prime number")
+                
+    else:
+        print("Enter valid number")
+
+      
+checkprime()
+
+            
+
+        
+                 
+
+            
+                    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
